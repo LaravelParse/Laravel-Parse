@@ -24,10 +24,6 @@ Once Laravel Parse is installed, you need to register the service provider. Open
 
 * `'GrahamCampbell\Parse\ParseServiceProvider'`
 
-You can register the Parse facade in the `aliases` key of your `app/config/app.php` file if you like.
-
-* `'Parse' => 'GrahamCampbell\Parse\Facades\Parse'`
-
 
 ## Configuration
 
