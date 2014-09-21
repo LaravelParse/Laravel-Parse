@@ -2,6 +2,6 @@ CHANGE LOG
 ==========
 
 
-## V0.1 Alpha (Upcoming)
+## V1.0 RC 1 (Upcoming)
 
 * Initial testing release
