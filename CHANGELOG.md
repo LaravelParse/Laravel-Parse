@@ -7,6 +7,6 @@ CHANGE LOG
 * Upgraded to laravel 5
 
 
-## V1.0 RC 1 (Upcoming)
+## V1.0 (Upcoming)
 
-* Initial testing release
+* Initial release
