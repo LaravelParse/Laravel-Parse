@@ -37,7 +37,7 @@ Laravel Parse requires connection configuration.
 To get started, first publish the package config file:
 
 ```bash
-$ php artisan config:publish graham-campbell/parse
+$ php artisan publish:config graham-campbell/parse
 ```
 
 There are three config options:
