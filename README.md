@@ -6,11 +6,11 @@ Laravel Parse was created by, and is maintained by [Graham Campbell](https://git
 ![Laravel Parse](https://cloud.githubusercontent.com/assets/2829600/4432307/c14e116c-468c-11e4-9ec7-987502964de9.PNG)
 
 <p align="center">
-<a href="https://travis-ci.org/GrahamCampbell/Laravel-Database"><img src="https://img.shields.io/travis/GrahamCampbell/Laravel-Database/master.svg?style=flat-square" alt="Build Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Database/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/GrahamCampbell/Laravel-Database.svg?style=flat-square" alt="Coverage Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Database"><img src="https://img.shields.io/scrutinizer/g/GrahamCampbell/Laravel-Database.svg?style=flat-square" alt="Quality Score"></img></a>
+<a href="https://travis-ci.org/GrahamCampbell/Laravel-Parse"><img src="https://img.shields.io/travis/GrahamCampbell/Laravel-Parse/master.svg?style=flat-square" alt="Build Status"></img></a>
+<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Parse/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/GrahamCampbell/Laravel-Parse.svg?style=flat-square" alt="Coverage Status"></img></a>
+<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Parse"><img src="https://img.shields.io/scrutinizer/g/GrahamCampbell/Laravel-Parse.svg?style=flat-square" alt="Quality Score"></img></a>
 <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg?style=flat-square" alt="Software License"></img></a>
-<a href="https://github.com/GrahamCampbell/Laravel-Database/releases"><img src="https://img.shields.io/github/release/GrahamCampbell/Laravel-Database.svg?style=flat-square" alt="Latest Version"></img></a>
+<a href="https://github.com/GrahamCampbell/Laravel-Parse/releases"><img src="https://img.shields.io/github/release/GrahamCampbell/Laravel-Parse.svg?style=flat-square" alt="Latest Version"></img></a>
 </p>
 
 
