@@ -47,6 +47,6 @@ return array(
     |
     */
 
-    'master_key' => 'your-master-key'
+    'master_key' => 'your-master-key',
 
 );
