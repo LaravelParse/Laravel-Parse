@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-return array(
+return [
 
     /*
     |--------------------------------------------------------------------------
@@ -49,4 +49,4 @@ return array(
 
     'master_key' => 'your-master-key',
 
-);
+];
