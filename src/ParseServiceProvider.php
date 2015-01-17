@@ -11,7 +11,7 @@
 
 namespace GrahamCampbell\Parse;
 
-use Illuminate\Support\ServiceProvider;
+use Orchestra\Support\Providers\ServiceProvider;
 use Parse\ParseClient;
 
 /**
@@ -22,20 +22,13 @@ use Parse\ParseClient;
 class ParseServiceProvider extends ServiceProvider
 {
     /**
-     * Indicates if loading of the provider is deferred.
-     *
-     * @var bool
-     */
-    protected $defer = false;
-
-    /**
-     * Bootstrap the application events.
+     * Boot the service provider.
      *
      * @return void
      */
     public function boot()
     {
-        $this->package('graham-campbell/parse', 'graham-campbell/parse', __DIR__);
+        $this->addConfigComponent('graham-campbell/parse', 'graham-campbell/parse', realpath(__DIR__.'/../config'));
 
         ParseClient::initialize(
             $this->app->config->get('graham-campbell/parse::app_id'),
