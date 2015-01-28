@@ -11,7 +11,8 @@
 
 namespace GrahamCampbell\Parse;
 
-use Orchestra\Support\Providers\ServiceProvider;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Support\ServiceProvider;
 use Parse\ParseClient;
 
 /**
@@ -28,13 +29,37 @@ class ParseServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->addConfigComponent('graham-campbell/parse', 'graham-campbell/parse', realpath(__DIR__.'/../config'));
+        $this->setupConfig();
 
-        ParseClient::initialize(
-            $this->app->config->get('graham-campbell/parse::app_id'),
-            $this->app->config->get('graham-campbell/parse::rest_key'),
-            $this->app->config->get('graham-campbell/parse::master_key')
-        );
+        $this->setupParse($this->app);
+    }
+
+    /**
+     * Setup the config.
+     *
+     * @return void
+     */
+    protected function setupConfig()
+    {
+        $source = realpath(__DIR__.'/../config/parse.php');
+
+        $this->publishes([$source => config_path('parse.php')]);
+
+        $this->mergeConfigFrom('parse', $source);
+    }
+
+    /**
+     * Setup parse.
+     *
+     * @param \Illuminate\Contracts\Foundation\Application $app
+     *
+     * @return void
+     */
+    protected function setupParse(Application $app)
+    {
+        $config = $app->config->get('parse');
+
+        ParseClient::initialize($config['app_id'], $config['rest_key'], $config['master_key']);
     }
 
     /**
