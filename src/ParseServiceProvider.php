@@ -45,7 +45,7 @@ class ParseServiceProvider extends ServiceProvider
 
         $this->publishes([$source => config_path('parse.php')]);
 
-        $this->mergeConfigFrom('parse', $source);
+        $this->mergeConfigFrom($source, 'parse');
     }
 
     /**
