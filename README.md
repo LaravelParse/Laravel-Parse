@@ -30,10 +30,6 @@ Once Laravel Parse is installed, you need to register the service provider. Open
 
 * `'GrahamCampbell\Parse\ParseServiceProvider'`
 
-#### Looking for a laravel 4 compatable version?
-
-Checkout the [1.0 branch](https://github.com/GrahamCampbell/Laravel-Parse/tree/1.0), installable by requiring `"graham-campbell/parse": "~1.0"`.
-
 
 ## Configuration
 
