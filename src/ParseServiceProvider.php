@@ -43,7 +43,9 @@ class ParseServiceProvider extends ServiceProvider
     {
         $source = realpath(__DIR__.'/../config/parse.php');
 
-        $this->publishes([$source => config_path('parse.php')]);
+        if (class_exists('Illuminate\Foundation\Application', false)) {
+            $this->publishes([$source => config_path('parse.php')]);
+        }
 
         $this->mergeConfigFrom($source, 'parse');
     }
