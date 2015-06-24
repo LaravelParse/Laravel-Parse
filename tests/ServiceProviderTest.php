@@ -11,7 +11,7 @@
 
 namespace GrahamCampbell\Tests\Parse;
 
-use GrahamCampbell\TestBench\Traits\ServiceProviderTestCaseTrait;
+use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
 
 /**
  * This is the service provider test class.
@@ -20,5 +20,5 @@ use GrahamCampbell\TestBench\Traits\ServiceProviderTestCaseTrait;
  */
 class ServiceProviderTest extends AbstractTestCase
 {
-    use ServiceProviderTestCaseTrait;
+    use ServiceProviderTrait;
 }

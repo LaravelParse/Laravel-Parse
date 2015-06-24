@@ -11,6 +11,7 @@
 
 namespace GrahamCampbell\Tests\Parse;
 
+use GrahamCampbell\Parse\ParseServiceProvider;
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
 /**
@@ -29,6 +30,6 @@ abstract class AbstractTestCase extends AbstractPackageTestCase
      */
     protected function getServiceProviderClass($app)
     {
-        return 'GrahamCampbell\Parse\ParseServiceProvider';
+        return ParseServiceProvider::class;
     }
 }
