@@ -63,6 +63,11 @@ This option (`'master_key'`) is where you may specify your parse master key. The
 This package is only responsible for the automatic initialisation of the parse client. See the parse docs at https://github.com/ParsePlatform/parse-php-sdk.
 
 
+## Security
+
+If you discover a security vulnerability within this package, please send an e-mail to Graham Campbell at graham@alt-three.com. All security vulnerabilities will be promptly addressed.
+
+
 ## License
 
 Laravel Parse is licensed under [The MIT License (MIT)](LICENSE).
