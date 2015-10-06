@@ -2,7 +2,7 @@ CHANGE LOG
 ==========
 
 
-## V2.3 (Upcoming)
+## V2.3 (06/10/2015)
 
 * Improved lumen support
 
