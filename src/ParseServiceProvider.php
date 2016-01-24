@@ -31,7 +31,7 @@ class ParseServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->setupConfig($this->app);
+        $this->setupConfig();
 
         $this->setupParse($this->app);
     }
@@ -39,18 +39,16 @@ class ParseServiceProvider extends ServiceProvider
     /**
      * Setup the config.
      *
-     * @param \Illuminate\Contracts\Foundation\Application $app
-     *
      * @return void
      */
-    protected function setupConfig(Application $app)
+    protected function setupConfig()
     {
         $source = realpath(__DIR__.'/../config/parse.php');
 
-        if ($app instanceof LaravelApplication && $app->runningInConsole()) {
+        if ($this->app instanceof LaravelApplication && $this->app->runningInConsole()) {
             $this->publishes([$source => config_path('parse.php')]);
-        } elseif ($app instanceof LumenApplication) {
-            $app->configure('parse');
+        } elseif ($this->app instanceof LumenApplication) {
+            $this->app->configure('parse');
         }
 
         $this->mergeConfigFrom($source, 'parse');
