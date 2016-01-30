@@ -11,7 +11,6 @@
 
 namespace GrahamCampbell\Parse;
 
-use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
@@ -33,7 +32,7 @@ class ParseServiceProvider extends ServiceProvider
     {
         $this->setupConfig();
 
-        $this->setupParse($this->app);
+        $this->setupParse();
     }
 
     /**
@@ -57,13 +56,11 @@ class ParseServiceProvider extends ServiceProvider
     /**
      * Setup parse.
      *
-     * @param \Illuminate\Contracts\Foundation\Application $app
-     *
      * @return void
      */
-    protected function setupParse(Application $app)
+    protected function setupParse()
     {
-        $config = $app->config->get('parse');
+        $config = $this->app->config->get('parse');
 
         ParseClient::initialize($config['app_id'], $config['rest_key'], $config['master_key']);
     }
