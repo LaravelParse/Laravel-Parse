@@ -1,5 +1,5 @@
 {
-    "name": "graham-campbell/parse",
+    "name": "mithleshjs/parse",
     "description": "Parse Is A Parse SDK Bridge For Laravel 5",
     "keywords": ["laravel", "framework", "parse", "parse-sdk", "parse sdk", "ParseSDK", "parse bridge", "parse sdk bridge", "bridge", "Parse", "Laravel Parse", "Laravel-Parse", "Graham Campbell", "GrahamCampbell"],
     "license": "MIT",
