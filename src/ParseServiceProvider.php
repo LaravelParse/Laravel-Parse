@@ -63,6 +63,8 @@ class ParseServiceProvider extends ServiceProvider
         $config = $this->app->config->get('parse');
 
         ParseClient::initialize($config['app_id'], $config['rest_key'], $config['master_key']);
+        ParseClient::setServerURL($config['server_url']);
+
     }
 
     /**
