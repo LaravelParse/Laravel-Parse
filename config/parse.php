@@ -43,7 +43,7 @@ return [
     */
 
     'master_key' => 'your-master-key',
-    
+
     /*
     |--------------------------------------------------------------------------
     | Parse Server URL
@@ -52,7 +52,7 @@ return [
     | Here you may specify your parse server url.
     |
     */
-    
+
     'server_url' => 'your-server-url',
-    
+
 ];
