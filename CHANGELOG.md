@@ -2,6 +2,11 @@ CHANGE LOG
 ==========
 
 
+## V2.5 (16/04/2016)
+
+* Support setting the server url
+
+
 ## V2.4.1 (30/01/2016)
 
 * Improved service provider
