@@ -53,6 +53,6 @@ return [
     |
     */
 
-    'server_url' => 'your-server-url',
+    'server_url' => 'https://api.parse.com/1',
 
 ];
