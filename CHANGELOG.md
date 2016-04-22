@@ -2,6 +2,11 @@ CHANGE LOG
 ==========
 
 
+## V2.6 (Upcoming)
+
+* Added laravel 5.3 support
+
+
 ## V2.5 (16/04/2016)
 
 * Support setting the server url
