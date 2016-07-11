@@ -63,8 +63,8 @@ return [
     | Here you may specify your parse mount point.
     |
     */
-   
-   'mount_path' => '1/',
+    
+    'mount_path' => '1/',
 
 
 ];

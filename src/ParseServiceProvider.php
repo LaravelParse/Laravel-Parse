@@ -64,12 +64,11 @@ class ParseServiceProvider extends ServiceProvider
 
         ParseClient::initialize($config['app_id'], $config['rest_key'], $config['master_key']);
 
-        if (isset($config['server_url']) && isset($config['mount_path']) ) {
+        if (isset($config['server_url']) && isset($config['mount_path'])) {
+            $serverURL = rtrim($config['server_url'], '/');
+            $mountPath = trim($config['mount_path'], '/').'/';
 
-            $serverURL = rtrim($config['server_url'],'/');
-            $mountPath = trim($config['mount_path'],'/') . '/';
-            
-            ParseClient::setServerURL($serverURL, $mountPath );
+            ParseClient::setServerURL($serverURL, $mountPath);
         }
     }
 
