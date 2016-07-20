@@ -64,7 +64,6 @@ return [
     |
     */
 
-    'mount_path' => '1/',
-
+    'mount_path' => '1',
 
 ];
