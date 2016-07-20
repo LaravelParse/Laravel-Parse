@@ -2,6 +2,11 @@ CHANGE LOG
 ==========
 
 
+## V2.7 (20/07/2016)
+
+* Fixed after breaking change in parse/php-sdk 1.2.1
+
+
 ## V2.6 (26/04/2016)
 
 * Added laravel 5.3 support
