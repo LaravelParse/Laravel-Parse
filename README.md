@@ -52,7 +52,7 @@ $ php artisan vendor:publish
 
 This will create a `config/parse.php` file in your app that you can modify to set your configuration. Also, make sure you check for changes to the original config file in this package between releases.
 
-There are three config options:
+There are five config options:
 
 ##### Parse App Id
 
@@ -66,6 +66,13 @@ This option (`'rest_key'`) is where you may specify your parse rest key. The def
 
 This option (`'master_key'`) is where you may specify your parse master key. The default value for this setting is `'your-master-key'`.
 
+##### Parse Server URL
+
+This option (`'server_url'`) is where you may specify your parse server url. The default value for this setting is `'https://api.parse.com/'`.
+
+##### Parse Mount Point
+
+This option (`'mount_point'`) is where you may specify your parse mount point. The default value for this setting is `'1'`.
 
 ## Usage
 
