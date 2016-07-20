@@ -53,6 +53,18 @@ return [
     |
     */
 
-    'server_url' => 'https://api.parse.com/1',
+    'server_url' => 'https://api.parse.com/',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Parse Mount Point
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify your parse mount point.
+    |
+    */
+
+    'mount_path' => '1/',
+
 
 ];
