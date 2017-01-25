@@ -70,6 +70,8 @@ class ParseServiceProvider extends ServiceProvider
 
             ParseClient::setServerURL($serverURL, $mountPath);
         }
+
+        ParseClient::setStorage(new ParseSessionStorage());
     }
 
     /**
