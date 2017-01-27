@@ -66,4 +66,16 @@ return [
 
     'mount_path' => '1',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Parse Session Handler
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify your parse session handler.
+    | Use 'laravel' if you want to use Laravel's session or blank if you don't.
+    |
+    */
+
+    'session' => 'laravel',
+
 ];
