@@ -55,4 +55,5 @@ class ParseLaravelSessionStorage implements ParseStorageInterface
     {
         return Session::get($this->storageKey);
     }
+
 }
