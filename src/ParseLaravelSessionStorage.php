@@ -21,18 +21,18 @@ class ParseLaravelSessionStorage implements ParseStorageInterface
 
     public function set($key, $value)
     {
-        Session::put($this->storageKey . '.' . $key, $value);
+        Session::put($this->storageKey.'.'.$key, $value);
     }
 
     public function remove($key)
     {
-        Session::forget($this->storageKey . '.' . $key);
+        Session::forget($this->storageKey.'.'.$key);
     }
 
     public function get($key)
     {
-        if (Session::has($this->storageKey . '.' . $key)) {
-            return Session::get($this->storageKey . '.' . $key);
+        if (Session::has($this->storageKey.'.'.$key)) {
+            return Session::get($this->storageKey.'.'.$key);
         }
     }
 
