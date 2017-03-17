@@ -69,6 +69,7 @@ class ParseServiceProvider extends ServiceProvider
             $mountPath = trim($config['mount_path'], '/').'/';
 
             ParseClient::setServerURL($serverURL, $mountPath);
+            ParseClient::setStorage(new ParseLaravelSessionStorage());
         }
     }
 
