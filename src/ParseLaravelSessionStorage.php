@@ -34,8 +34,6 @@ class ParseLaravelSessionStorage implements ParseStorageInterface
         if (Session::has($this->storageKey . '.' . $key)) {
             return Session::get($this->storageKey . '.' . $key);
         }
-
-        return;
     }
 
     public function clear()
@@ -57,5 +55,4 @@ class ParseLaravelSessionStorage implements ParseStorageInterface
     {
         return Session::get($this->storageKey);
     }
-
 }
