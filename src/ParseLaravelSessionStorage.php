@@ -2,8 +2,8 @@
 
 namespace GrahamCampbell\Parse;
 
-use Parse\ParseStorageInterface;
 use Illuminate\Support\Facades\Session;
+use Parse\ParseStorageInterface;
 
 class ParseLaravelSessionStorage implements ParseStorageInterface
 {
@@ -46,7 +46,6 @@ class ParseLaravelSessionStorage implements ParseStorageInterface
     public function save()
     {
         // No action required.    PHP handles persistence for $_SESSION.
-        return;
     }
 
     public function getKeys()
@@ -58,4 +57,5 @@ class ParseLaravelSessionStorage implements ParseStorageInterface
     {
         return Session::get($this->storageKey);
     }
+
 }
