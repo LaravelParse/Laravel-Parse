@@ -71,6 +71,10 @@ class ParseServiceProvider extends ServiceProvider
 
             ParseClient::setServerURL($serverURL, $mountPath);
         }
+
+        if (isset($config['session']) && $config['session'] === 'laravel') {
+            ParseClient::setStorage(new ParseSessionStorage($this->app->session));
+        }
     }
 
     /**
