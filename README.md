@@ -77,6 +77,10 @@ This option (`'server_url'`) is where you may specify your parse server url. The
 
 This option (`'mount_point'`) is where you may specify your parse mount point. The default value for this setting is `'1'`.
 
+#### Parse Session Handler
+
+This option (`'session'`) is where you may specify your parse session handler. The default value for this setting is `'laravel'`.
+
 ## Usage
 
 This package is only responsible for the automatic initialisation of the parse client. See the parse docs at https://github.com/ParsePlatform/parse-php-sdk.
