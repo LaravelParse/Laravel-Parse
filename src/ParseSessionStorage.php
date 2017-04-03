@@ -1,6 +1,16 @@
 <?php
 
-namespace GrahamCampbell\Parse;
+/*
+ * This file is part of Laravel Parse.
+ *
+ * (c) Graham Campbell <graham@alt-three.com>
+ * (c) Prosper Otemuyiwa <prosperotemuyiwa@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace LaravelParse\Parse;
 
 use Illuminate\Session\SessionManager;
 use Parse\ParseStorageInterface;
