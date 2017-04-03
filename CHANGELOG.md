@@ -1,6 +1,11 @@
 CHANGE LOG
 ==========
 
+## V3.0 (03/04/2017)
+
+* Added support for session storage
+* Rename Package namespace
+
 
 ## V2.8 (01/01/2017)
 
