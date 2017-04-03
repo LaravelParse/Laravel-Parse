@@ -4,15 +4,16 @@
  * This file is part of Laravel Parse.
  *
  * (c) Graham Campbell <graham@alt-three.com>
+ * (c) Prosper Otemuyiwa <prosperotemuyiwa@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Parse;
+namespace LaravelParse\Tests\Parse;
 
-use GrahamCampbell\Parse\ParseServiceProvider;
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
+use LaravelParse\Parse\ParseServiceProvider;
 
 /**
  * This is the abstract test case class.
