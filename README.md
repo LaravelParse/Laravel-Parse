@@ -37,9 +37,7 @@ Once Laravel Parse is installed, you need to register the service provider. Open
 
 ## Configuration
 
-Laravel Parse requires configuration/
-
-To get started, you'll need to publish all vendor assets:
+Laravel Parse requires configuration. To get started, you'll need to publish all vendor assets:
 
 ```bash
 $ php artisan vendor:publish
