@@ -20,7 +20,7 @@
         "parse/php-sdk": "^1.2.1"
     },
     "require-dev": {
-        "laravel-parse/testbench": "^3.1",
+        "graham-campbell/testbench": "^3.1",
         "phpunit/phpunit": "^4.8|^5.0"
     },
     "autoload": {
