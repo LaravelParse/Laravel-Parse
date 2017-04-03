@@ -10,14 +10,6 @@ Laravel Parse was created by, and is maintained by [Prosper Otemuyiwa](https://g
 <a href="https://github.com/LaravelParse/Laravel-Parse/releases"><img src="https://img.shields.io/github/release/LaravelParse/Laravel-Parse.svg?style=flat-square" alt="Latest Version"></img></a>
 </p>
 
-
-## NOTICE
-
-Effective immediately, [Prosper Otemuyiwa](https://github.com/unicodeveloper) will take as project lead on this package.
-
-The package will be rebranded to `laravel-parse/parse`, for a 3.0 release.
-
-
 ## Installation
 
 Either [PHP](https://php.net) 5.5+ or [HHVM](http://hhvm.com) 3.6+ are required.
