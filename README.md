@@ -1,16 +1,21 @@
 Laravel Parse
 =============
 
-Laravel Parse was created by, and is maintained by [Graham Campbell](https://github.com/GrahamCampbell), and is a [Parse SDK](https://github.com/ParsePlatform/parse-php-sdk) bridge for [Laravel 5](http://laravel.com). Feel free to check out the [change log](CHANGELOG.md), [releases](https://github.com/GrahamCampbell/Laravel-Parse/releases), [license](LICENSE), and [contribution guidelines](CONTRIBUTING.md).
+Laravel Parse was created by, and is maintained by [Prosper Otemuyiwa](https://github.com/unicodeveloper), and is a [Parse SDK](https://github.com/ParsePlatform/parse-php-sdk) bridge for [Laravel 5](http://laravel.com). Feel free to check out the [change log](CHANGELOG.md), [releases](https://github.com/LaravelParse/Laravel-Parse/releases), [license](LICENSE), and [contribution guidelines](CONTRIBUTING.md).
 
 <p align="center">
 <a href="https://styleci.io/repos/23192065"><img src="https://styleci.io/repos/23192065/shield" alt="StyleCI Status"></img></a>
-<a href="https://travis-ci.org/GrahamCampbell/Laravel-Parse"><img src="https://img.shields.io/travis/GrahamCampbell/Laravel-Parse/master.svg?style=flat-square" alt="Build Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Parse/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/GrahamCampbell/Laravel-Parse.svg?style=flat-square" alt="Coverage Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/GrahamCampbell/Laravel-Parse"><img src="https://img.shields.io/scrutinizer/g/GrahamCampbell/Laravel-Parse.svg?style=flat-square" alt="Quality Score"></img></a>
+<a href="https://travis-ci.org/LaravelParse/Laravel-Parse"><img src="https://img.shields.io/travis/LaravelParse/Laravel-Parse/master.svg?style=flat-square" alt="Build Status"></img></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License"></img></a>
-<a href="https://github.com/GrahamCampbell/Laravel-Parse/releases"><img src="https://img.shields.io/github/release/GrahamCampbell/Laravel-Parse.svg?style=flat-square" alt="Latest Version"></img></a>
+<a href="https://github.com/LaravelParse/Laravel-Parse/releases"><img src="https://img.shields.io/github/release/LaravelParse/Laravel-Parse.svg?style=flat-square" alt="Latest Version"></img></a>
 </p>
+
+
+## NOTICE
+
+Effective immediately, [Prosper Otemuyiwa](https://github.com/unicodeveloper) will take as project lead on this package.
+
+The package will be rebranded to `laravel-parse/parse`, for a 3.0 release.
 
 
 ## Installation
@@ -20,7 +25,7 @@ Either [PHP](https://php.net) 5.5+ or [HHVM](http://hhvm.com) 3.6+ are required.
 To get the latest version of Laravel Parse, simply require the project using [Composer](https://getcomposer.org):
 
 ```bash
-$ composer require graham-campbell/parse
+$ composer require laravel-parse/parse
 ```
 
 Instead, you may of course manually update your require block and run `composer update` if you so choose:
@@ -28,14 +33,14 @@ Instead, you may of course manually update your require block and run `composer 
 ```json
 {
     "require": {
-        "graham-campbell/parse": "^2.0"
+        "laravel-parse/parse": "^3.0"
     }
 }
 ```
 
 Once Laravel Parse is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
 
-* `'GrahamCampbell\Parse\ParseServiceProvider'`
+* `'LaravelParse\Parse\ParseServiceProvider'`
 
 
 ## Configuration
@@ -79,7 +84,7 @@ This package is only responsible for the automatic initialisation of the parse c
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to Graham Campbell at graham@alt-three.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to Prosper Otemuyiwa at prosperotemuyiwa@gmail.com. All security vulnerabilities will be promptly addressed.
 
 
 ## License

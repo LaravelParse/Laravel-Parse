@@ -4,12 +4,13 @@
  * This file is part of Laravel Parse.
  *
  * (c) Graham Campbell <graham@alt-three.com>
+ * (c) Prosper Otemuyiwa <prosperotemuyiwa@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Parse;
+namespace LaravelParse\Parse;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
