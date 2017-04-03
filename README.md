@@ -1,7 +1,7 @@
 Laravel Parse
 =============
 
-Laravel Parse was created by, and is maintained by [Prosper Otemuyiwa](https://github.com/unicodeveloper), and is a [Parse SDK](https://github.com/ParsePlatform/parse-php-sdk) bridge for [Laravel 5](http://laravel.com). Feel free to check out the [change log](CHANGELOG.md), [releases](https://github.com/LaravelParse/Laravel-Parse/releases), [license](LICENSE), and [contribution guidelines](CONTRIBUTING.md).
+Laravel Parse is currently maintained by [Prosper Otemuyiwa](https://github.com/unicodeveloper), and is a [Parse SDK](https://github.com/ParsePlatform/parse-php-sdk) bridge for [Laravel 5](http://laravel.com). Feel free to check out the [change log](CHANGELOG.md), [releases](https://github.com/LaravelParse/Laravel-Parse/releases), [license](LICENSE), and [contribution guidelines](CONTRIBUTING.md).
 
 <p align="center">
 <a href="https://styleci.io/repos/23192065"><img src="https://styleci.io/repos/23192065/shield" alt="StyleCI Status"></img></a>
